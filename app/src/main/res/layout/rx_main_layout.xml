@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/observable_btn"
+        android:layout_width="match_parent"
+        android:text="Observabale"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/disposal_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disposal"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/observable_mapbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Observable Map"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/observable_timerbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Observable Timer"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/observable_intervalbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Observable Interval"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
